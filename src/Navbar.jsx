@@ -17,7 +17,7 @@ function Navbar() {
         </a>{" "}
         &{" "}
         <a className="navLink" href="/final/contact">
-          where to contact me
+          contact
         </a>
       </nav>
       <div className="navBar"></div>
@@ -25,7 +25,7 @@ function Navbar() {
         Will Allstetter
       </a>
     </header>
-  );
+  )
 }
 
 export default Navbar;
