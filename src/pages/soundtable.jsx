@@ -8,8 +8,8 @@ function Soundtable() {
       <div>
         For my end of semester Design Studio project, I built an Ableton
         controller. This project grew out of a desire to both simplify and
-        introduce an aspect of play to sound synthesis. Modern digital sound
-        synthesis relies on extensive knowledge of sine wave and wavetable
+        introduce an aspect of play to sound synthesis. Modern digital VST
+        synthesizers relies on extensive knowledge of sine wave and wavetable
         properties, creating a high barrier to entry into the field. As opposed
         to most software synthesizers, the Soundtable was designed to allow
         anyone&#8212;including those without experience&#8212;to experiment and,
@@ -38,11 +38,11 @@ function Soundtable() {
         <div className="brick">
           <div className="subhead">Demo</div>
           <iframe
-            src="https://player.vimeo.com/video/724583639?h=126fcc5a06&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-            frameBorder="0"
+            src="https://player.vimeo.com/video/780633910?h=0e5fb3f82a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
-            allowFullScreen
-            title="soundtable demo"
+            allowfullscreen
+            title="soundtable_demo (1080p).mp4"
             className="vimeo"
           ></iframe>
         </div>

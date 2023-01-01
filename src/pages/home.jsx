@@ -6,9 +6,12 @@ function Home() {
       <div className="bricks">
         <div className="left-half">
           <div>
-            <div className="title"> Hi, I'm <i>[name redacted]</i></div>
+            <div className="title">
+              {" "}
+              Hi, I'm <i>Will Allstetter</i>
+            </div>
           </div>
-          I&apos;m a software engineer & writer pursuing a bachelor&apos;s
+          I&apos;m a creative technologist & writer pursuing a bachelor&apos;s
           degree in Computer Science & English at{" "}
           <a href="https://www.brown.edu/" target="_blank" rel="noreferrer">
             Brown University
@@ -17,7 +20,7 @@ function Home() {
           <a href="https://www.risd.edu/" target="_blank" rel="noreferrer">
             RISD
           </a>
-          ). At school, I work in the New Media Department of the{" "}
+          ). At school, I'm the the New Media Department coordinator for the{" "}
           <a
             href="https://www.ivyfilmfestival.org/"
             target="_blank"
@@ -33,15 +36,16 @@ function Home() {
           >
             Better World by Design
           </a>
-          .
+          . <br></br>
+          <br></br>I'm interested in how nature, exploration, and play can
+          contribute to an ethical, critical design practice.
         </div>
         <div className="mePhoto">
           <img
-            src="https://i.insider.com/56d5b238dd089554178b4752?width=1000&format=jpeg&auto=webp"
-            alt="a photo of me ([name redacted])"
+            src="https://media2.giphy.com/media/CFR8AZU1rP5IGF35jP/giphy.gif?cid=790b761139dd77a3ae0acbc5207b82bafbfef78f1458faa1&rid=giphy.gif&ct=g"
+            alt="a photo of me (Will Allstetter)"
+            className="left-pad"
           />
-          <br></br>I'm not allowed to have photos of myself so this will have to
-          do for the time being (I'm the dog)
         </div>
       </div>
     </div>

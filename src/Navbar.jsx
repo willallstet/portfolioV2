@@ -6,15 +6,25 @@ function Navbar() {
   return (
     <header>
       <nav>
-      <a className='navLink'href="/projects">projects,</a>{' '}
-      <a className='navLink'href="/writing">writing,</a>{' '}
-      <a className='navLink' href="/resume">resume,</a>{' '}&{' '}
-      <a className='navLink'href="/contact">where to contact me</a>
-    </nav>
-    <div className='navBar'>
-    </div>
-    <a className='myName' href="/">[name redacted]</a>
-  </header>
+        <a className="navLink" href="/final/projects">
+          projects,
+        </a>{" "}
+        <a className="navLink" href="/final/writing">
+          writing,
+        </a>{" "}
+        <a className="navLink" href="/final/resume">
+          resume,
+        </a>{" "}
+        &{" "}
+        <a className="navLink" href="/final/contact">
+          where to contact me
+        </a>
+      </nav>
+      <div className="navBar"></div>
+      <a className="myName" href="/final">
+        Will Allstetter
+      </a>
+    </header>
   );
 }
 

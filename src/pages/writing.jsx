@@ -20,9 +20,17 @@ function Writing() {
         >
           Brown Motion Pictures
         </a>
-        &apos; screenwriting competition. Please email me (
-        <a href="mailto:fake@fake.com" target="_blank" rel="noreferrer">
-          [email redacted]
+        &apos; screenwriting competition. <br />
+        <br />I find myself often interested in challanging traiditional formal
+        practices, and the structure of my pieces reflect that. <br />
+        <br />
+        Please email me (
+        <a
+          href="mailto:william_allstetter@brown.edu"
+          target="_blank"
+          rel="noreferrer"
+        >
+          william_allstetter@brown.edu
         </a>
         ) if you&apos;d like other examples of my academic, professional, or
         fictional pieces.

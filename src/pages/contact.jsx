@@ -10,7 +10,7 @@ function Contact() {
           <li>
             on{" "}
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/william-allstetter/"
               target="_blank"
               rel="noreferrer"
             >
@@ -28,7 +28,11 @@ function Contact() {
           </li>
           <li>
             or check out what I&apos;m saving on{" "}
-            <a href="https://www.are.na/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.are.na/will-allstetter"
+              target="_blank"
+              rel="noreferrer"
+            >
               are.na
             </a>
           </li>
@@ -36,7 +40,7 @@ function Contact() {
       </div>
       <div className="contactPhoto">
         {" "}
-        <img src="https://media.tegna-media.com/assets/WBNS/images/cc4fe700-a063-4275-8d16-c00981f0c8cb/cc4fe700-a063-4275-8d16-c00981f0c8cb_1920x1080.jpg"></img>
+        <img src="https://pbs.twimg.com/media/EY7tGKrUMAAToB9?format=jpg&name=large"></img>
       </div>
     </body>
   );

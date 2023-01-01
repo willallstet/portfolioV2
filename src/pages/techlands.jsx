@@ -17,11 +17,8 @@ function Techlands() {
       </a>{" "}
       exploring memory, myth, cartography, and note-taking. Still very much in
       progress, reach out if you&apos;d like to know more or have any resources
-      I might find interesting. Pictured is a very rapid{" "}
-      <a href="https://www.raspberrypi.com/" target="_blank" rel="noreferrer">
-        Raspberry Pi
-      </a>{" "}
-      prototype of a GPS field note recorder I made while a guest at the{" "}
+      I might find interesting. Attached is an creative/research essay I wrote
+      while a guest at the{" "}
       <a href="http://nbnerr.org/" target="_blank" rel="noreferrer">
         Narragansett Bay Research Reserve
       </a>

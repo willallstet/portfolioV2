@@ -5,7 +5,7 @@ function Projects() {
     <body>
       <div className="subhead">Art/Design</div>
       <div className="bricks">
-        <a href="/soundtable">
+        <a href="/final/soundtable">
           <div className="brickHomepage">
             <img
               className="sampleImg"
@@ -16,7 +16,7 @@ function Projects() {
             </div>
           </div>
         </a>
-        <a href="/techlands">
+        <a href="/final/techlands">
           <div className="brickHomepage">
             <img
               className="sampleImg"
@@ -27,7 +27,7 @@ function Projects() {
             </div>
           </div>
         </a>
-        <a href="/cyanobacteria">
+        <a href="/final/cyanobacteria">
           <div className="brickHomepage">
             <img
               className="sampleImg"
@@ -38,77 +38,81 @@ function Projects() {
             </div>
           </div>
         </a>
-        <div className="brickHomepage">
-          <img
-            className="sampleImg"
-            src="https://media4.giphy.com/media/YUu0xmmRmePOyu8uIh/giphy.gif?cid=790b76114918966cc373c0d38ecd43826ed176ce4cf224d3&rid=giphy.gif&ct=g"
-          ></img>
-          <div class="overlay">
-            <div class="overlayText">blueno ar</div>
+        <a href="/final/bluenoAr">
+          <div className="brickHomepage">
+            <img
+              className="sampleImg"
+              src="https://media4.giphy.com/media/YUu0xmmRmePOyu8uIh/giphy.gif?cid=790b76114918966cc373c0d38ecd43826ed176ce4cf224d3&rid=giphy.gif&ct=g"
+            ></img>
+            <div class="overlay">
+              <div class="overlayText">blueno ar</div>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
-      <div className="subhead">Software Engineering</div>
-      <div className="bricks">
-        <a href="/iterative">
-          <div className="brickHomepage">
-            <img
-              className="sampleImg"
-              src="https://media3.giphy.com/media/cnagYypJlDdV4b0Uei/giphy.gif?cid=790b76113674abdbe3bcf55322b48ca1826b81c0f38a9fb9&rid=giphy.gif&ct=g"
-            ></img>
-            <div class="overlay">
-              <div class="overlayText">weensyOS</div>
+      <div hidden={true}>
+        <div className="subhead">Software Engineering</div>
+        <div className="bricks">
+          <a href="/weensyOS">
+            <div className="brickHomepage">
+              <img
+                className="sampleImg"
+                src="https://media3.giphy.com/media/cnagYypJlDdV4b0Uei/giphy.gif?cid=790b76113674abdbe3bcf55322b48ca1826b81c0f38a9fb9&rid=giphy.gif&ct=g"
+              ></img>
+              <div class="overlay">
+                <div class="overlayText">weensyOS</div>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="/iterative">
-          <div className="brickHomepage">
-            <img
-              className="sampleImg"
-              src="https://i.imgur.com/8EPBv3q.jpg"
-            ></img>
-            <div class="overlay">
-              <div class="overlayText">handwritten digit generator</div>
+          </a>
+          <a href="/iterative">
+            <div className="brickHomepage">
+              <img
+                className="sampleImg"
+                src="https://i.imgur.com/8EPBv3q.jpg"
+              ></img>
+              <div class="overlay">
+                <div class="overlayText">handwritten digit generator</div>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="/iterative">
-          <div className="brickHomepage">
-            <img
-              className="sampleImg"
-              src="https://i.imgur.com/0xa94m1.jpg?1"
-            ></img>
-            <div class="overlay">
-              <div class="overlayText">dog-cat identifier</div>
+          </a>
+          <a href="/iterative">
+            <div className="brickHomepage">
+              <img
+                className="sampleImg"
+                src="https://i.imgur.com/0xa94m1.jpg?1"
+              ></img>
+              <div class="overlay">
+                <div class="overlayText">dog-cat identifier</div>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="/iterative">
-          <div className="brickHomepage">
-            <img
-              className="sampleImg"
-              src="https://i.imgur.com/tOG1dJt.gif"
-            ></img>
-            <div class="overlay">
-              <div class="overlayText">gitlab prune</div>
+          </a>
+          <a href="/iterative">
+            <div className="brickHomepage">
+              <img
+                className="sampleImg"
+                src="https://i.imgur.com/tOG1dJt.gif"
+              ></img>
+              <div class="overlay">
+                <div class="overlayText">gitlab prune</div>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
       <div className="subhead">UI/UX</div>
       <div className="bricks">
-        <a href="/iterative">
+        <a href="/final/iterative">
           <div className="brickHomepage">
             <img
               className="sampleImg"
-              src="https://i.imgur.com/IhzeKR3.png"
+              src="https://i.imgur.com/sESXgRm.png"
             ></img>
             <div class="overlay">
               <div class="overlayText">andi design</div>
             </div>
           </div>
         </a>
-        <a href="https://woefulworm.github.io/development/">
+        <a href="/final/backpack">
           <div className="brickHomepage">
             <img
               className="sampleImg"
@@ -119,7 +123,7 @@ function Projects() {
             </div>
           </div>
         </a>
-        <a href="https://woefulworm.github.io/development/">
+        <a href="/final/redesign">
           <div className="brickHomepage">
             <img
               className="sampleImg"

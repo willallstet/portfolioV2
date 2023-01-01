@@ -12,15 +12,22 @@ import Iterative from "./pages/iterative";
 import Cyanobacteria from "./pages/cyanobacteria";
 import './pages/design.css';
 import Techlands from "./pages/techlands";
+import Blueno from "./pages/bluenoAr";
+import Weensy from "./pages/weensyOs";
+import Backpack from "./pages/backpack";
 
 export default function App() {
   return (
     <div className="all">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/final/" element={<Layout />}>
             <Route index element={<Home />} />
+            <Route path="final" element={<Home />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="bluenoAr" element={<Blueno />} />
+            <Route path="weensyOS" element={<Weensy />} />
+            <Route path="backpack" element={<Backpack />} />
             <Route path="soundtable" element={<Soundtable />} />
             <Route path="redesign" element={<Redesign />} />
             <Route path="writing" element={<Writing />} />
@@ -31,7 +38,7 @@ export default function App() {
             <Route path="cyanobacteria" element={<Cyanobacteria />} />
           </Route>
         </Routes>
-        </BrowserRouter>
+      </BrowserRouter>
     </div>
   );
 }

@@ -4,26 +4,54 @@ import "./design.css";
 function Iterative() {
   return (
     <body>
-      <div className="title">Andi Mobile Design</div>
-      <div>
-        For this project, our group chose Andi, a startup using AI & language
-        models to create a better search engine. Instead of the the SEO
-        optimized, advertisement cluttered, and data tracking current state of
-        online search engines, Andi summerizes it's findings, giving simple
-        answers to it's users. While Andi operates across interfaces, we are
-        designed specifically for their mobile application. In line with it's
-        product vision, Andi is primarily for users who are no longer interested
-        in being the product - specifically people frustrated by endless ads,
-        data tracking, and convoluted search results. This encapsulates a large
-        segment of potential customers, but as a tech minded alterative to the
-        current industry giants, Andi is likely most relevant to users who are
-        digitally native, frequently use search engines like Google or Yahoo
-        (and are familiar with their layout), and are interested in need and
-        actively searching for a better alterative. Andi would change the game -
-        with users no longer needing to deal with endless adverts polluting
-        their experience, more direct & accurate answers based on searches
-        (helpful for researchers/frequent searchers), and also a friendlier UI
-        that encourages exploration and highlights the most crucial information.
+      <div className="flex">
+        <div className="left-most-noDash">
+          <div className="title">Andi Mobile Design</div>
+          <div>
+            For a project in my{" "}
+            <a
+              href="https://cs.brown.edu/courses/csci1300/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              UI/UX class
+            </a>
+            , my group chose to redesign Andi, a startup using AI & language
+            models to create a better search engine. I was especially interested
+            in this product's mission as it stood in oppsotion to the SEO
+            optimized, advertisement cluttered, and data tracking current state
+            of online search engines. Andi summerizes it's findings, giving
+            simple answers to it's users while still encouraging divergent
+            online journeys.
+            <br />
+            <br />
+            While Andi operates across interfaces, we designed specifically for
+            their mobile application. In line with it's vision, Andi is
+            primarily for users who are no longer interested in being the
+            product for mega-corporations - specifically users frustrated by
+            endless ads, data tracking, and convoluted search results. This
+            encapsulates a large segment of potential customers, but as a tech
+            minded alterative to the current industry giants, Andi is likely
+            most relevant to users who are digitally native, frequently use
+            search engines like Google or Yahoo (and are familiar with their
+            layout), and are interested in need and actively searching for a
+            better alterative.
+            <br />
+            <br />
+            Andi would change the game - challanging competitors who subject
+            their users to advertisments and SEO tricks that pollute their
+            experience and obscure relevant information. Instead, it would offer
+            more direct & accurate answers based on searches (helpful for
+            researchers/frequent searchers), and also a friendlier UI that
+            encourages exploration and highlights the most crucial information.
+          </div>
+        </div>
+        <div className="mePhotoSmall">
+          <img
+            className="mediumImgPad"
+            src="https://media3.giphy.com/media/fvCdHSSIuYUkfGhOc0/giphy.gif?cid=790b7611f6848dedc6d007c6832f3337b3e6b86dd8e92d89&rid=giphy.gif&ct=g"
+          ></img>
+        </div>
       </div>
       <div className="bricks">
         <div className="brick">
@@ -37,9 +65,18 @@ function Iterative() {
             mental maps to, while also communicating Andi's difference from it's
             competitors.
           </div>
-          <img src="https://iterative-design.vercel.app/IMG_4695.jpeg" />
-          <img src="https://iterative-design.vercel.app/IMG_4694.jpeg" />
-          <img src="https://iterative-design.vercel.app/wireframe3.png" />
+          <img
+            className="mediumImgPad"
+            src="https://iterative-design.vercel.app/IMG_4695.jpeg"
+          />
+          <img
+            className="mediumImgPad"
+            src="https://iterative-design.vercel.app/IMG_4694.jpeg"
+          />
+          <img
+            className="mediumImgPad"
+            src="https://iterative-design.vercel.app/wireframe3.png"
+          />
         </div>
         <div className="brick">
           <div className="subhead">Part 2: Wireframing</div>
@@ -61,24 +98,39 @@ function Iterative() {
         </div>
         <div className="brick">
           <div className="subhead">Part 3: Hifi Prototype</div>
-          <div className="disc">
-            After skteching, we mocked up this concept in Balsamiq. In the end,
-            we decided to follow a more traditional search engine layout,
-            displayed in the second image, commmincating Andi's difference in
-            the simplcity of the search results. We decided to stick with
-            box-based results that summarizes the most relevant
-            information/high-level summary first, and then follows up with more
-            context. In this way, search results more directly answer the user's
-            inquiry and if needed they can easily find more related information.
-            We agreed that stepping too far out of convention would go against
-            Andi's goal of creating a smoother, simpler search experience. We
-            also included an "About Andi" modal that communicates Andi's unique
-            mission to users.
+          <div class="figma">
+            <iframe
+              src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fc8WzWfbsaWjfoNZuJudGm2%2Fiterative-(Copy)%3Fnode-id%3D2%253A35%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D2%253A35"
+              allowfullscreen=""
+              className="figma"
+            ></iframe>
           </div>
-          <iframe
-            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FBCnAbV3iPSP5MVIB2xK0eJ%2Fiterative%3Fpage-id%3D0%253A1%26node-id%3D2%253A35%26viewport%3D372%252C174%252C0.19%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A35"
-            allowfullscreen
-          ></iframe>
+          <div className="disc">
+            Following our critique session, we incorporated a handful of changes
+            to further iterate on our prototype. These included:
+            <ul>
+              <li>
+                Addition of a bolded, simplified description of Andi on the “How
+                it works” frame (per industry critique). This “TL:DR” text
+                embodies Andi's ethos by giving a straightforward, quick answer
+                to the frame's proposed question.
+              </li>
+              <li>
+                Addition of a caption to image and video results to help
+                contextualize results.
+              </li>
+              <li>
+                Removal of the “Open in YouTube” button in the video results
+                frame to reduce redundancies. We transferred this action to a
+                new frame which, upon clicking on a video result, presents the
+                user an option to leave Andi to view the video, or cancel the
+                operation and stay within the app.
+              </li>
+              <li>
+                A more consitent use of shadows to signify clickable elements
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="brick">
           <div className="subhead">Part 4: User Testing</div>
