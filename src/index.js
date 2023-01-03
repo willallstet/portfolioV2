@@ -15,6 +15,7 @@ import Techlands from "./pages/techlands";
 import Blueno from "./pages/bluenoAr";
 import Weensy from "./pages/weensyOs";
 import Backpack from "./pages/backpack";
+import Tapback from "./pages/tapbackRedesign"
 
 export default function App() {
   return (
@@ -36,11 +37,12 @@ export default function App() {
             <Route path="techlands" element={<Techlands />} />
             <Route path="iterative" element={<Iterative />} />
             <Route path="cyanobacteria" element={<Cyanobacteria />} />
+            <Route path="tapback" element={<Tapback />} />
           </Route>
         </Routes>
       </BrowserRouter>
     </div>
-  );
+  )
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));

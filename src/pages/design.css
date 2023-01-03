@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
 body{
   font-family: Garamond;
   margin: 10px;
@@ -134,6 +134,40 @@ img{
   margin-bottom: 1.8vw;
   padding: 5px;
 }
+.tapback-left {
+  width: 50%;
+  font-size: x-large;
+  margin-bottom: 1.8vw;
+  padding: 5px;
+}
+.iphoneMockup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding: 30px;
+}
+
+.iphoneMockup-noPadLeft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding: 30px;
+  padding-left: 0;
+}
+.tapback-right {
+  width: 50%;
+  font-size: x-large;
+  margin-bottom: 1.8vw;
+  padding: 5px;
+}
+
+.apple-icon {
+  width: 50px;
+  max-height: 75px;
+  padding: 20px;
+}
 
 .left-small {
   font-family: Garamond;
@@ -232,6 +266,7 @@ a:active{
 
 .not-footer {
   background-color: #E0E1DD;
+  min-height: fit-content;
 }
 
 .vimeo{
@@ -300,6 +335,51 @@ a:link {
   align-items: center;
 }
 
+.flex-apple{
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-apple .title{
+  padding: 20px;
+  text-align: center;
+  background-image: linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%,#f65aad 76%,#ec3d43);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.flex-apple .subtitle-sideways{
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+  font-size: 6ch;
+  font-weight: 700;
+  padding: 20px;
+  text-align: center;
+  background-image: linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%,#f65aad 76%,#ec3d43);
+  color: transparent;
+  -webkit-background-clip: text;
+  transform: rotate(-90deg);
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+
+  /* IE */
+  -ms-transform: rotate(-90deg);
+
+  /* Opera */
+  -o-transform: rotate(-90deg);
+}
+
 .padBottom{
   padding-bottom: 1vh;
 }
@@ -311,4 +391,29 @@ a:link {
 .figma{
   width: 90%;
   height: 500px;
+}
+
+.slideanim {
+  visibility:hidden;
+  visibility:visible\9;/*For old IE browsers IE6-8 */
+}
+.slideanim.slide {                  
+  visibility: visible;                  
+  animation: slide 1s;
+}
+.slideanim::after {
+  /* useful when its child elements are float:left; */
+  content: "";
+  display: table;
+  clear: both;
+}
+@keyframes slide {
+  0% {
+      opacity: 0;
+      transform: translateY(50%);
+  } 
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  } 
 }
