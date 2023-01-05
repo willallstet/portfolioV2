@@ -29,6 +29,20 @@ body{
   padding: 10px;
 }
 
+.disc-apple{
+  width:100%;
+  padding: 10px;
+  font-size: 3ch;
+  color: black;
+}
+
+.disc-apple-main{
+  width:100%;
+  padding: 10px;
+  font-size: 3.5ch;
+  color: #6e6e73;
+}
+
 .bricks{
   display: flex;
   flex-direction: row;
@@ -134,18 +148,17 @@ img{
   margin-bottom: 1.8vw;
   padding: 5px;
 }
-.tapback-left {
-  width: 50%;
+.tapback-text {
+  padding: 20px;
+  width: 60%;
   font-size: x-large;
-  margin-bottom: 1.8vw;
-  padding: 5px;
 }
 .iphoneMockup{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20%;
-  padding: 30px;
+  width: 30%;
+  padding: 10px;
 }
 
 .iphoneMockup-noPadLeft{
@@ -157,16 +170,21 @@ img{
   padding-left: 0;
 }
 .tapback-right {
-  width: 50%;
+  width: 40%;
   font-size: x-large;
-  margin-bottom: 1.8vw;
-  padding: 5px;
 }
 
 .apple-icon {
   width: 50px;
   max-height: 75px;
   padding: 20px;
+}
+
+.apple-sketch {
+  width: 70%;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: #222930;
 }
 
 .left-small {
@@ -346,12 +364,21 @@ a:link {
   align-items: center;
 }
 
+.subhead-apple{
+  color: #847AF6;
+  width: 100%;
+  text-align: right;
+  font-size: 4.5ch;
+  font-weight: 500;
+  text-align: left;
+}
 .flex-apple .title{
-  padding: 20px;
-  text-align: center;
+  padding: 0px;
+  text-align: left;
   background-image: linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%,#f65aad 76%,#ec3d43);
   color: transparent;
   -webkit-background-clip: text;
+  font-size: 6ch;
 }
 
 .flex-apple .subtitle-sideways{
@@ -393,27 +420,11 @@ a:link {
   height: 500px;
 }
 
-.slideanim {
-  visibility:hidden;
-  visibility:visible\9;/*For old IE browsers IE6-8 */
-}
-.slideanim.slide {                  
-  visibility: visible;                  
-  animation: slide 1s;
-}
-.slideanim::after {
-  /* useful when its child elements are float:left; */
-  content: "";
-  display: table;
-  clear: both;
-}
-@keyframes slide {
-  0% {
-      opacity: 0;
-      transform: translateY(50%);
-  } 
-  100% {
-      opacity: 1;
-      transform: translateY(0);
-  } 
+.row-tapback{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5ch;
+  width: 100%;
 }

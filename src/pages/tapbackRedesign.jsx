@@ -4,25 +4,41 @@ import "./design.css"
 function Tapback() {
   return (
     <body className="flex-apple">
-      <div className="title">iMessage Tapback Expansion</div>
-      <div className="tapback-left">
-        <div className="disc">
-          Interested in integrating my design skills into a brand's design
-          idenity as well practicing creating icons, I decided to expand Apple's
-          fleet of iMessage tapback reactions.
-          <br />
-          <br></br>
-          To do so, I created icons in Figma that I felt would
+      <div className="row-tapback">
+        <div className="tapback-text">
+          <div className="title">iMessage Tapback Expansion</div>
+          <div className="disc-apple-main">
+            Interested in designing within a brand's idenity and creating a
+            custom icon set, I expanded Apple's fleet of iMessage tapback
+            reactions.
+          </div>
         </div>
       </div>
       <div className="iphoneMockup">
         <img src="https://i.imgur.com/WBM4XJy.png"></img>
       </div>
-      <div className="iphoneMockup">
-        <img src="https://i.imgur.com/vXWvNTZ.png"></img>
+      <div className="row-tapback">
+        <div className="tapback-text">
+          <div className="subhead-apple">Inspiration strikes</div>
+          <div className="disc"></div>
+        </div>
+        <img
+          src="https://i.imgur.com/pLQ7RQr.png"
+          className="iphoneMockup"
+        ></img>
+        <div className="tapback-right">
+          <img
+            className="iphoneMockup"
+            src="https://i.imgur.com/e23TIO1.png"
+          ></img>
+          <img
+            className="apple-sketch"
+            src="https://i.imgur.com/NPNwIMd.jpg"
+          ></img>
+        </div>
       </div>
-      <div className="tapback-right">
-        <div className="disc"></div>
+      <div className="iphoneMockup">
+        <img src="https://i.imgur.com/x3XdgHk.png"></img>
       </div>
       <div className="iphoneMockup">
         <img src="https://i.imgur.com/OLq7fAW.png"></img>

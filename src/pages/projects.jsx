@@ -50,7 +50,7 @@ function Projects() {
           </div>
         </a>
       </div>
-      <div hidden={true}>
+      <div hidden={false}>
         <div className="subhead">Software Engineering</div>
         <div className="bricks">
           <a href="/weensyOS">
@@ -101,6 +101,17 @@ function Projects() {
       </div>
       <div className="subhead">UI/UX</div>
       <div className="bricks">
+        <a href="/final/tapback">
+          <div className="brickHomepage">
+            <img
+              className="sampleImg"
+              src="https://i.imgur.com/Y1lch7d.png"
+            ></img>
+            <div class="overlay">
+              <div class="overlayText">iMessage tapbacks</div>
+            </div>
+          </div>
+        </a>
         <a href="/final/iterative">
           <div className="brickHomepage">
             <img
@@ -136,7 +147,7 @@ function Projects() {
         </a>
       </div>
     </body>
-  );
+  )
 }
 
 export default Projects;
