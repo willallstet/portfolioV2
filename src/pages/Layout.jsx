@@ -8,9 +8,9 @@ const Layout = () => {
       <div className="not-footer">
         <Navbar />
         <Outlet />
-      </div>
-      <div className="footer" id="footer">
+        <div className="footer" id="footer">
         Website designed + coded by me using Javascript, React, and HTML.
+      </div>
       </div>
     </>
   );

@@ -105,10 +105,10 @@ function Projects() {
           <div className="brickHomepage">
             <img
               className="sampleImg"
-              src="https://i.imgur.com/Y1lch7d.png"
+              src="https://i.imgur.com/mlrfRnX.png"
             ></img>
             <div class="overlay">
-              <div class="overlayText">iMessage tapbacks</div>
+              <div class="overlayText">iMessage tapback expansion</div>
             </div>
           </div>
         </a>
@@ -147,7 +147,7 @@ function Projects() {
         </a>
       </div>
     </body>
-  )
+  );
 }
 
 export default Projects;

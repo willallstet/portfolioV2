@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import './Navbar.css';
+import "./Navbar.css";
 
 function Navbar() {
   return (
     <header>
       <nav>
         <a className="navLink" href="/final/projects">
-          projects,
+          work,
         </a>{" "}
         <a className="navLink" href="/final/writing">
           writing,
@@ -25,7 +25,7 @@ function Navbar() {
         Will Allstetter
       </a>
     </header>
-  )
+  );
 }
 
 export default Navbar;
