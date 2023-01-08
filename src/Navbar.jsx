@@ -6,22 +6,22 @@ function Navbar() {
   return (
     <header>
       <nav>
-        <a className="navLink" href="/final/projects">
+        <a className="navLink" href="/portfolioV2/projects">
           work,
         </a>{" "}
-        <a className="navLink" href="/final/writing">
+        <a className="navLink" href="/portfolioV2/writing">
           writing,
         </a>{" "}
-        <a className="navLink" href="/final/resume">
+        <a className="navLink" href="/portfolioV2/resume">
           resume,
         </a>{" "}
         &{" "}
-        <a className="navLink" href="/final/contact">
+        <a className="navLink" href="/portfolioV2/contact">
           contact
         </a>
       </nav>
       <div className="navBar"></div>
-      <a className="myName" href="/final">
+      <a className="myName" href="/portfolioV2">
         Will Allstetter
       </a>
     </header>
