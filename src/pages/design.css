@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
-body{
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-9");
+body {
   font-family: Garamond;
   margin: 10px;
   font-size: large;
   color: #353633;
-  background-color: #E0E1DD;
+  background-color: #e0e1dd;
 }
 
-.title{
+.title {
   font-size: 9ch;
   font-weight: 600;
   padding: 5px;
@@ -16,7 +16,7 @@ body{
   width: 100%;
 }
 
-.subhead{
+.subhead {
   font-size: 6ch;
   font-style: italic;
   font-weight: 500;
@@ -24,26 +24,32 @@ body{
   text-align: center;
 }
 
-.disc{
-  width:100%;
+.disc {
+  width: 100%;
   padding: 10px;
 }
 
-.disc-apple{
-  width:100%;
+.disc-apple {
+  width: 40vw;
+  padding: 10px;
+  font-size: 3ch;
+  color: black;
+}
+.disc-apple-wide {
+  width: 55vw;
   padding: 10px;
   font-size: 3ch;
   color: black;
 }
 
-.disc-apple-main{
-  width:100%;
+.disc-apple-main {
+  width: 100%;
   padding: 10px;
   font-size: 3.5ch;
   color: #6e6e73;
 }
 
-.bricks{
+.bricks {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -52,12 +58,12 @@ body{
   height: 100%;
 }
 
-img{
+img {
   width: 90%;
   height: auto;
 }
 
-.brick{
+.brick {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -69,7 +75,7 @@ img{
   justify-content: center;
 }
 
-.brickHomepage{
+.brickHomepage {
   max-width: 500px;
   max-height: 500px;
   min-width: 300px;
@@ -87,7 +93,7 @@ img{
   margin-right: 5%;
 }
 
-.sampleImg{
+.sampleImg {
   width: 100%;
   height: 100%;
   min-height: 500px;
@@ -150,18 +156,52 @@ img{
 }
 .tapback-text {
   padding: 20px;
-  width: 60%;
+  width: 30vw;
   font-size: x-large;
 }
-.iphoneMockup{
+.iphoneMockup {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30%;
+  width: 30vw;
   padding: 10px;
 }
 
-.iphoneMockup-noPadLeft{
+.iphoneMockup-even {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: auto;
+  padding-top: 5vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-bottom: 5vh;
+}
+.iphoneMockup-small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40ch;
+  width: auto;
+  padding: 10px;
+}
+
+.iphoneMockup-small-noPad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50ch;
+  width: auto;
+  padding: 10px;
+}
+
+.iconMockup {
+  height: 30ch;
+  width: auto;
+  padding-bottom: 5ch;
+}
+.iphoneMockup-noPadLeft {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,8 +221,8 @@ img{
 }
 
 .apple-sketch {
-  width: 70%;
-  padding: 20px;
+  width: 30vw;
+  padding: 3vw;
   border-radius: 30px;
   box-shadow: #222930;
 }
@@ -221,11 +261,11 @@ img{
   text-align: center;
   font-size: small;
 }
-.mePhoto img{
+.mePhoto img {
   width: 100%;
 }
 
-.contact{
+.contact {
   font-size: xx-large;
   display: flex;
   flex-wrap: wrap;
@@ -234,20 +274,20 @@ img{
   height: 79vh;
 }
 
-ul{
+ul {
   margin-top: 0.5ch;
 }
-a:hover{
+a:hover {
   text-decoration: underline;
   cursor: pointer;
   font-style: italic;
 }
 
-a:active{
+a:active {
   color: #222930;
 }
 
-.writing{
+.writing {
   display: flex;
   flex-wrap: wrap;
   font-size: x-large;
@@ -255,39 +295,34 @@ a:active{
   justify-content: center;
 }
 
-.resume{
+.resume {
   height: 100vh;
   text-align: center;
   align-items: center;
   justify-content: center;
 }
-.pdf{
+.pdf {
   margin-left: 0;
   margin-bottom: 0;
   height: 90vh;
   border: none;
 }
 .footer {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 1ch;
-  border-top: dashed;
   bottom: 0;
-  position: relative;
-  padding-bottom: 0;
-  left: 0;
   width: 100%;
-  height: 2vh;
-  background-color: #E0E1DD;
+  height: 2rem;
+  padding: 0.5rem;
+  border-top: dashed;
+  padding-bottom: 0;
+  background-color: #e0e1dd;
 }
 
 .not-footer {
-  background-color: #E0E1DD;
+  background-color: #e0e1dd;
   min-height: fit-content;
 }
 
-.vimeo{
+.vimeo {
   position: flex;
   width: 90%;
   padding: 0;
@@ -295,22 +330,22 @@ a:active{
   margin: 0;
 }
 
-.vimeoTall{
+.vimeoTall {
   width: 100%;
   margin: 0;
   border: none;
 }
 
-.smallimg{
+.smallimg {
   padding: 1%;
   width: 30%;
 }
 
-.all{
-  background-color: #E0E1DD;
+.all {
+  background-color: #e0e1dd;
 }
 
-.centerHome{
+.centerHome {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -318,11 +353,11 @@ a:active{
   height: 100%;
 }
 
-.mediumImg{
+.mediumImg {
   width: 50%;
 }
 
-.mediumImgPad{
+.mediumImgPad {
   padding: 20px;
   width: 50%;
 }
@@ -331,57 +366,92 @@ a:link {
   color: #353633;
 }
 
-.footer2{
+.footer2 {
   padding-top: 3%;
 }
 
-.webEmbed{
+.webEmbed {
   height: 150vh;
   width: 56%;
   margin: 20px;
 }
 
-.centerElements{
+.centerElements {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
-.flex{
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.flex-apple{
+.flex-apple {
   color: black;
   background-color: white;
   border-radius: 20px;
-  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.subhead-apple{
-  color: #847AF6;
+.subhead-apple {
+  color: #847af6;
   width: 100%;
   text-align: right;
-  font-size: 4.5ch;
+  font-size: 4.5vw;
   font-weight: 500;
   text-align: left;
 }
-.flex-apple .title{
+
+.subhead-apple-blue {
+  color: #0075fa;
+  width: 100%;
+  text-align: right;
+  font-size: 4.5vw;
+  font-weight: 500;
+  text-align: left;
+}
+.flex-apple .title {
   padding: 0px;
   text-align: left;
-  background-image: linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%,#f65aad 76%,#ec3d43);
+  font-weight: 900;
+  background-image: linear-gradient(
+    90deg,
+    #2ca2b4,
+    #5598de 24%,
+    #7f87ff 45%,
+    #f65aad 76%,
+    #ec3d43
+  );
   color: transparent;
   -webkit-background-clip: text;
-  font-size: 6ch;
+  font-size: 6vw;
 }
 
-.flex-apple .subtitle-sideways{
+.flex-apple .title-bold {
+  padding: 0px;
+  text-align: left;
+  font-weight: 2000;
+  background-image: linear-gradient(
+    90deg,
+    #2ca2b4,
+    #5598de 24%,
+    #7f87ff 45%,
+    #f65aad 76%,
+    #ec3d43
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 6vw;
+}
+
+.flex-apple .subtitle-sideways {
   width: fit-content;
   margin: 0;
   padding: 0;
@@ -389,7 +459,14 @@ a:link {
   font-weight: 700;
   padding: 20px;
   text-align: center;
-  background-image: linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%,#f65aad 76%,#ec3d43);
+  background-image: linear-gradient(
+    90deg,
+    #2ca2b4,
+    #5598de 24%,
+    #7f87ff 45%,
+    #f65aad 76%,
+    #ec3d43
+  );
   color: transparent;
   -webkit-background-clip: text;
   transform: rotate(-90deg);
@@ -407,24 +484,31 @@ a:link {
   -o-transform: rotate(-90deg);
 }
 
-.padBottom{
+.padBottom {
   padding-bottom: 1vh;
 }
 
-.left-pad{
+.left-pad {
   padding-left: 2vw;
 }
 
-.figma{
+.figma {
   width: 90%;
   height: 500px;
 }
 
-.row-tapback{
+.row-tapback {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5ch;
+  width: 90vw;
+}
+
+.row-tapback-head {
   align-items: center;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  padding: 5ch;
-  width: 100%;
+  padding: 2ch;
+  width: 90vw;
 }
