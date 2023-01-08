@@ -5,7 +5,7 @@ function Projects() {
     <body>
       <div className="subhead">Art/Design</div>
       <div className="bricks">
-        <a href="/final/soundtable">
+        <a href="/portfolioV2/soundtable">
           <div className="brickHomepage">
             <img
               className="sampleImg"
@@ -16,7 +16,7 @@ function Projects() {
             </div>
           </div>
         </a>
-        <a href="/final/techlands">
+        <a href="/portfolioV2/techlands">
           <div className="brickHomepage">
             <img
               className="sampleImg"
@@ -27,7 +27,7 @@ function Projects() {
             </div>
           </div>
         </a>
-        <a href="/final/cyanobacteria">
+        <a href="/portfolioV2/cyanobacteria">
           <div className="brickHomepage">
             <img
               className="sampleImg"
@@ -38,7 +38,7 @@ function Projects() {
             </div>
           </div>
         </a>
-        <a href="/final/bluenoAr">
+        <a href="/portfolioV2/bluenoAr">
           <div className="brickHomepage">
             <img
               className="sampleImg"
@@ -101,7 +101,7 @@ function Projects() {
       </div>
       <div className="subhead">UI/UX</div>
       <div className="bricks">
-        <a href="/final/tapback">
+        <a href="/portfolioV2/tapback">
           <div className="brickHomepage">
             <img
               className="sampleImg"
@@ -112,7 +112,7 @@ function Projects() {
             </div>
           </div>
         </a>
-        <a href="/final/iterative">
+        <a href="//iterative">
           <div className="brickHomepage">
             <img
               className="sampleImg"
@@ -123,7 +123,7 @@ function Projects() {
             </div>
           </div>
         </a>
-        <a href="/final/backpack">
+        <a href="/portfolioV2/backpack">
           <div className="brickHomepage">
             <img
               className="sampleImg"
@@ -134,7 +134,7 @@ function Projects() {
             </div>
           </div>
         </a>
-        <a href="/final/redesign">
+        <a href="/portfolioV2/redesign">
           <div className="brickHomepage">
             <img
               className="sampleImg"

@@ -10,21 +10,21 @@ import Projects from "./pages/projects";
 import Home from "./pages/home";
 import Iterative from "./pages/iterative";
 import Cyanobacteria from "./pages/cyanobacteria";
-import './pages/design.css';
+import "./pages/design.css";
 import Techlands from "./pages/techlands";
 import Blueno from "./pages/bluenoAr";
 import Weensy from "./pages/weensyOs";
 import Backpack from "./pages/backpack";
-import Tapback from "./pages/tapbackRedesign"
+import Tapback from "./pages/tapbackRedesign";
 
 export default function App() {
   return (
     <div className="all">
       <BrowserRouter>
         <Routes>
-          <Route path="/final/" element={<Layout />}>
+          <Route path="/portfolioV2/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="final" element={<Home />} />
+            <Route path="portfolioV2" element={<Home />} />
             <Route path="contact" element={<Contact />} />
             <Route path="bluenoAr" element={<Blueno />} />
             <Route path="weensyOS" element={<Weensy />} />
@@ -42,7 +42,7 @@ export default function App() {
         </Routes>
       </BrowserRouter>
     </div>
-  )
+  );
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
