@@ -42,7 +42,7 @@ function Home() {
         </div>
         <div className="mePhoto">
           <img
-            src="https://media2.giphy.com/media/CFR8AZU1rP5IGF35jP/giphy.gif?cid=790b761139dd77a3ae0acbc5207b82bafbfef78f1458faa1&rid=giphy.gif&ct=g"
+            src="https://i.imgur.com/hTJPLVs.jpg"
             alt="a photo of me (Will Allstetter)"
             className="left-pad"
           />

@@ -12,7 +12,6 @@ body {
   font-size: 9ch;
   font-weight: 600;
   padding: 5px;
-  padding-bottom: 10px;
   width: 100%;
 }
 
@@ -24,9 +23,31 @@ body {
   text-align: center;
 }
 
+.subhead-wide {
+  width: 99vw;
+  font-size: 6ch;
+  font-style: italic;
+  font-weight: 500;
+  padding: 10px;
+  text-align: center;
+}
+
 .disc {
   width: 100%;
   padding: 10px;
+}
+
+.disc-large {
+  font-size: x-large;
+  width: 80vw;
+  padding: 10px;
+}
+
+.seperator {
+  border-bottom: dashed;
+  width: 100vw;
+  height: 0.1vh;
+  margin-bottom: 1vh;
 }
 
 .disc-apple {
@@ -128,6 +149,23 @@ img {
   font-size: 20px;
   position: absolute;
   text-align: center;
+}
+
+.left-text {
+  width: 55vw;
+  padding-right: 1vw;
+}
+
+.left-text-big-text {
+  font-size: x-large;
+  padding-left: 2vw;
+  width: 55vw;
+  padding-right: 1vw;
+}
+.left-text-small {
+  font-size: x-large;
+  width: 35vw;
+  padding-right: 3vw;
 }
 
 .left-half {
@@ -323,11 +361,8 @@ a:active {
 }
 
 .vimeo {
-  position: flex;
-  width: 90%;
-  padding: 0;
-  height: 80%;
-  margin: 0;
+  width: 40vw;
+  height: 60vh;
 }
 
 .vimeoTall {
@@ -337,8 +372,8 @@ a:active {
 }
 
 .smallimg {
-  padding: 1%;
-  width: 30%;
+  width: 20vw;
+  padding: 1vw;
 }
 
 .all {
@@ -384,6 +419,7 @@ a:link {
 }
 .flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -489,6 +525,7 @@ a:link {
 }
 
 .left-pad {
+  height: 70vh;
   padding-left: 2vw;
 }
 
@@ -511,4 +548,11 @@ a:link {
   flex-wrap: wrap;
   padding: 2ch;
   width: 90vw;
+}
+.blue {
+  color: #3772ff;
+}
+
+.green {
+  color: #2b9720;
 }

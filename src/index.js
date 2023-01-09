@@ -22,7 +22,7 @@ export default function App() {
     <div className="all">
       <BrowserRouter>
         <Routes>
-          <Route path="/portfolioV2/" element={<Layout />}>
+          <Route path="/portfolioV2" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="portfolioV2" element={<Home />} />
             <Route path="contact" element={<Contact />} />
