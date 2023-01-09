@@ -19,7 +19,11 @@ function Contact() {
           </li>
           <li>
             by{" "}
-            <a href="https://gmail.com" target="_blank" rel="noreferrer">
+            <a
+              href="mailto:william_allstetter@brown.edu"
+              target="_blank"
+              rel="noreferrer"
+            >
               email
             </a>
           </li>

@@ -5,7 +5,11 @@ function Writing() {
     <body className="writing">
       <div className="left-half">
         I&apos;ve publshed&nbsp;
-        <a href="http://www.theindy.org/" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.theindy.org/author=Will%20Allstetter"
+          target="_blank"
+          rel="noreferrer"
+        >
           these articles
         </a>{" "}
         in <i>The College Hill Independent</i>, worked as a copywriter for{" "}
@@ -38,7 +42,7 @@ function Writing() {
         <img src="https://i.imgur.com/DDQ7Gc3.png"></img>
       </div>
     </body>
-  )
+  );
 }
 
 export default Writing;
