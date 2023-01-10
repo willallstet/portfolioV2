@@ -52,7 +52,7 @@ function Home() {
         </div>
         <div className="mePhoto">
           <img
-            src="https://i.imgur.com/hTJPLVs.jpg"
+            src="https://i.imgur.com/sAuEg27.jpg"
             alt="a photo of me (Will Allstetter)"
             className="left-pad"
           />
