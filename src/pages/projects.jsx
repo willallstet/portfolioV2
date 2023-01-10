@@ -50,7 +50,54 @@ function Projects() {
           </div>
         </a>
       </div>
-      <div hidden={false}>
+      <div className="subhead">UI/UX</div>
+      <div className="bricks">
+        <a href="/portfolioV2/tapback">
+          <div className="brickHomepage">
+            <img
+              className="sampleImg"
+              src="https://i.imgur.com/mlrfRnX.png"
+            ></img>
+            <div class="overlay">
+              <div class="overlayText">iMessage tapback expansion</div>
+            </div>
+          </div>
+        </a>
+        <a href="/portfolioV2/iterative">
+          <div className="brickHomepage">
+            <img
+              className="sampleImg"
+              src="https://i.imgur.com/sESXgRm.png"
+            ></img>
+            <div class="overlay">
+              <div class="overlayText">andi design</div>
+            </div>
+          </div>
+        </a>
+        <a href="/portfolioV2/backpack">
+          <div className="brickHomepage">
+            <img
+              className="sampleImg"
+              src="https://spiela.co.uk/uploads/community/1638364768Image.jpeg"
+            ></img>
+            <div class="overlay">
+              <div class="overlayText">resident advisor redsign</div>
+            </div>
+          </div>
+        </a>
+        <a href="/portfolioV2/redesign">
+          <div className="brickHomepage">
+            <img
+              className="sampleImg"
+              src="https://cdn.vox-cdn.com/thumbor/fvwx9IbRHceEHEWFjYFvRF6S0i0=/41x0:681x480/1400x1400/filters:focal(41x0:681x480):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/47552007/unnamed-4.0.0.jpg"
+            ></img>
+            <div class="overlay">
+              <div class="overlayText">powerHouse redesign</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div hidden={true}>
         <div className="subhead">Software Engineering</div>
         <div className="bricks">
           <a href="/weensyOS">
@@ -98,53 +145,6 @@ function Projects() {
             </div>
           </a>
         </div>
-      </div>
-      <div className="subhead">UI/UX</div>
-      <div className="bricks">
-        <a href="/portfolioV2/tapback">
-          <div className="brickHomepage">
-            <img
-              className="sampleImg"
-              src="https://i.imgur.com/mlrfRnX.png"
-            ></img>
-            <div class="overlay">
-              <div class="overlayText">iMessage tapback expansion</div>
-            </div>
-          </div>
-        </a>
-        <a href="//iterative">
-          <div className="brickHomepage">
-            <img
-              className="sampleImg"
-              src="https://i.imgur.com/sESXgRm.png"
-            ></img>
-            <div class="overlay">
-              <div class="overlayText">andi design</div>
-            </div>
-          </div>
-        </a>
-        <a href="/portfolioV2/backpack">
-          <div className="brickHomepage">
-            <img
-              className="sampleImg"
-              src="https://i.imgur.com/u1J9TG6.jpg"
-            ></img>
-            <div class="overlay">
-              <div class="overlayText">backpack game</div>
-            </div>
-          </div>
-        </a>
-        <a href="/portfolioV2/redesign">
-          <div className="brickHomepage">
-            <img
-              className="sampleImg"
-              src="https://cdn.vox-cdn.com/thumbor/fvwx9IbRHceEHEWFjYFvRF6S0i0=/41x0:681x480/1400x1400/filters:focal(41x0:681x480):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/47552007/unnamed-4.0.0.jpg"
-            ></img>
-            <div class="overlay">
-              <div class="overlayText">powerHouse redesign</div>
-            </div>
-          </div>
-        </a>
       </div>
     </body>
   );
