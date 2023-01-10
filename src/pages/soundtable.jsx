@@ -44,7 +44,11 @@ function Soundtable() {
         className="vimeo"
       ></iframe>
       <div className="seperator"></div>
-      <div className="subhead-wide">Build Process</div>
+      <div className="subhead-wide">Inspiration</div>
+      <div className="seperator"></div>
+      <div className="subhead-wide">Ideation</div>
+      <div className="seperator"></div>
+      <div className="subhead-wide">Implementation</div>
       <div className="left-text-small">
         Wanting to create a <b>tactile</b> and <b>touchable</b> interface
         without a digital aesthetic, I decided to utilize capacitive touch
@@ -84,6 +88,8 @@ function Soundtable() {
       </div>
       <img className="mediumImg" src="https://i.imgur.com/srWmGfm.png" />
       <div className="seperator"></div>
+      <img className="smallimg" src="https://i.imgur.com/VT8PnMR.jpg" />
+      <img className="smallimg" src="https://i.imgur.com/FZMI8bd.jpg" />
       <img className="smallimg" src="https://i.imgur.com/VT8PnMR.jpg" />
       <div className="left-text-big-text">
         Then, when it came to creating the casing for the technology, it was

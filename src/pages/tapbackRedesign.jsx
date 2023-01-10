@@ -50,7 +50,7 @@ function Tapback() {
       ></img>
       <div className="row-tapback-head">
         <div>
-          <div className="subhead-apple-blue">Process</div>
+          <div className="subhead-apple-blue">Implementation</div>
           <div className="disc-apple">
             In order to design a minimum viable product I adapted existing Apple
             screens, designed 30 sample icons, and created a workflow where a

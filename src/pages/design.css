@@ -14,7 +14,11 @@ body {
   padding: 5px;
   width: 100%;
 }
-
+.title-alittleSmaller {
+  font-size: 6ch;
+  font-weight: 600;
+  width: 100%;
+}
 .subhead {
   font-size: 6ch;
   font-style: italic;
@@ -174,15 +178,16 @@ img {
   font-size: x-large;
   border-right: dashed;
   margin-bottom: 1.8vw;
-  padding: 5px;
+  padding: 3vw;
 }
 
 .left-half-noDash {
   font-family: Garamond;
-  width: 50%;
+  width: 50vw;
   font-size: x-large;
   margin-bottom: 1.8vw;
   padding: 5px;
+  padding-top: 0;
 }
 
 .left-most-noDash {
@@ -366,11 +371,24 @@ a:active {
 }
 
 .vimeoTall {
-  width: 100%;
+  width: 30vw;
+  padding: 2vw;
+  height: 30vw;
   margin: 0;
   border: none;
 }
 
+.vimeoPicContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  padding: 2vw;
+  padding-top: 0;
+  margin: 0;
+  border: none;
+}
 .smallimg {
   width: 20vw;
   padding: 1vw;
@@ -422,6 +440,12 @@ a:link {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.flex-noJust {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .flex-apple {
@@ -555,4 +579,13 @@ a:link {
 
 .green {
   color: #2b9720;
+}
+
+.monospace {
+  font-family: monospace;
+  font-size: 0.01em;
+}
+
+.widestPoss {
+  width: 100%;
 }

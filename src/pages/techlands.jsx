@@ -18,7 +18,7 @@ function Techlands() {
       exploring memory, myth, cartography, and note-taking. Still very much in
       progress, reach out if you&apos;d like to know more or have any resources
       I might find interesting. Attached is an creative/research essay I wrote
-      while a guest at the{" "}
+      while a visiting artists at the{" "}
       <a href="http://nbnerr.org/" target="_blank" rel="noreferrer">
         Narragansett Bay Research Reserve
       </a>

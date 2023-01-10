@@ -6,7 +6,7 @@ function Home() {
       <div className="bricks">
         <div className="left-half">
           <div>
-            <div className="title">
+            <div className="title-alittleSmaller">
               {" "}
               Hi, I'm <i>Will Allstetter</i>
             </div>
@@ -37,6 +37,16 @@ function Home() {
             Better World by Design
           </a>
           . <br></br>
+          <br></br>I'm currently enrolled in "Virtual Spatial Morphologies," a
+          graduate level class in RISD's{" "}
+          <a
+            href="https://interiorarchitecture.risd.edu/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Interior Architecure Department
+          </a>
+          .<br></br>
           <br></br>I'm interested in how nature, exploration, and play can
           contribute to an ethical, critical design practice.
         </div>
