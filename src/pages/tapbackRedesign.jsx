@@ -13,12 +13,11 @@ function Tapback() {
             reactions.
           </div>
         </div>
-        <div className="iphoneMockup">
-          <img
-            src="https://i.imgur.com/WBM4XJy.png"
-            alt="expanded tapback reaction to a song"
-          ></img>
-        </div>
+        <img
+          src="https://i.imgur.com/WBM4XJy.png"
+          alt="expanded tapback reaction to a song"
+          className="iphoneMockup"
+        ></img>
       </div>
       <div className="row-tapback-head">
         <img
@@ -26,7 +25,7 @@ function Tapback() {
           src="https://i.imgur.com/NPNwIMd.jpg"
           alt="prototype sketch made on the plane"
         ></img>
-        <div>
+        <div className="left-text-small">
           <div className="subhead-apple">Inspiration strikes</div>
           <div className="disc-apple">
             When my friend agreed to pick me up from the airport at a new time,
@@ -49,7 +48,7 @@ function Tapback() {
         alt="the inspiration text edited with the angel react"
       ></img>
       <div className="row-tapback-head">
-        <div>
+        <div className="left-text-small">
           <div className="subhead-apple-blue">Implementation</div>
           <div className="disc-apple">
             In order to design a minimum viable product I adapted existing Apple
@@ -68,7 +67,7 @@ function Tapback() {
           <div className="disc-apple-wide">
             Working off the existing macOS and iOS mental map, a user can hold
             down an icon—making it shake—to open the menu that shows replacement
-            icons. I added a search bar becasue I envision a future, shippable
+            icons. I added a search bar because I envision a future, shippable
             iteration that includes more icons than the sample set I designed.
           </div>
         </div>

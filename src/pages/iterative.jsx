@@ -180,24 +180,21 @@ function Iterative() {
           <br></br>Once the users completed this task, they were able to
           successfully search on our interface and complete the remaining
           subtasks, accomplishing our main task of finding the address for Brown
-          CS. A piece of feedback we got from this user was to make the
-          interface more indicative of the tasks the user needs to take on that
-          given page. The second respondent was able to complete the task
-          quickly and validated our expectation that the interface would be
-          intuitive for a user unfamiliar with Andi, stating that the app was
-          “simple and easy to use” (1:32 in video 4342277B). We found that the
-          third user had an easy time navigating through the app and completing
-          the task as well. She did struggle with the final sub-task of
-          navigating from the individual search result page to the “open in
-          maps” button. Both the third and first users expressed difficulty with
-          noticing the maps icon when on the search results page. Since this was
-          a bottleneck for completing the final sub-task of getting to the map
-          view for two of the three users, we think that an area for improvement
-          on our interface would be to{" "}
-          <ol>
-            <li>making the map icon more prominent to the user</li>
-            <li>making the task more clear on the screen overall.</li>
-          </ol>{" "}
+          CS. <br></br>
+          <br></br>The second respondent was able to complete the task quickly
+          and validated our expectation that the interface would be intuitive
+          for a user unfamiliar with Andi, stating that the app was “simple and
+          easy to use” at 1:32.<br></br>
+          <br></br> We found that the third user had an easy time navigating
+          through the app and completing the task as well. She did struggle with
+          the final sub-task of navigating from the individual search result
+          page to the “open in maps” button. Both the third and first users
+          expressed difficulty with noticing the maps icon when on the search
+          results page. Since this was a bottleneck for completing the final
+          sub-task of getting to the map view for two of the three users, we
+          think that an area for improvement on our interface would be to make a
+          stronger distinction between the embedded in-app map and opening the
+          address on their phone's map software.
         </div>
         <div className="flex">
           <iframe
@@ -209,17 +206,17 @@ function Iterative() {
             allowfullscreen=""
           ></iframe>
           <iframe
-            src="https://www.youtube.com/embed/SNTNFMDG7Eg"
-            className="pad"
+            src="https://www.youtube.com/embed/fSNIWrx390g"
             title="YouTube video player"
+            className="pad"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen=""
           ></iframe>
           <iframe
-            src="https://www.youtube.com/embed/fSNIWrx390g"
-            title="YouTube video player"
+            src="https://www.youtube.com/embed/SNTNFMDG7Eg"
             className="pad"
+            title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen=""

@@ -61,8 +61,8 @@ function Soundtable() {
         design. As an object looking to bridge the gap between the organic and
         the fabricated, the hard edges contrasted with the abstract interface
         and organic materials gestured towards this goal. Further, my technical
-        abilities constrained my ideas and I felt like this was an achieveable
-        fabrication-wise. layout
+        abilities constrained my ideas and I felt like this was an achievable
+        fabrication-wise.
         <br></br>
         <br></br>
       </div>

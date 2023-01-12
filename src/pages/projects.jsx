@@ -3,7 +3,9 @@ import React from "react";
 function Projects() {
   return (
     <body>
-      <div className="subhead">Art/Design</div>
+      <span className="monospace">
+        <div className="subhead">Art/Design</div>
+      </span>
       <div className="bricks">
         <a href="/portfolioV2/soundtable">
           <div className="brickHomepage">
@@ -51,7 +53,9 @@ function Projects() {
         </a>
       </div>
       <div className="seperator"></div>
-      <div className="subhead">UI/UX</div>
+      <span className="monospace">
+        <div className="subhead">UI/UX</div>
+      </span>
       <div className="bricks">
         <a href="/portfolioV2/tapback">
           <div className="brickHomepage">

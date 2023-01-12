@@ -24,7 +24,7 @@ function Techlands() {
       </a>
       .<br></br>
       <br></br>
-      <div className="resume">
+      <div className="flex">
         <iframe
           src="https://drive.google.com/file/d/1N7V8yYidbCrqC4Tx7FHkZWIryJ0NwrKo/preview"
           width="90%"

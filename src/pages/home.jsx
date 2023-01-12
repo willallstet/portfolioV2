@@ -8,9 +8,12 @@ function Home() {
           <div>
             <div className="title-alittleSmaller">
               {" "}
-              Hi, I'm <i>Will Allstetter</i>
+              <span className="monospace">
+                Hi, I'm <i>Will Allstetter</i>
+              </span>
             </div>
           </div>
+          <br></br>
           I&apos;m a creative technologist & writer pursuing a bachelor&apos;s
           degree in Computer Science & English at{" "}
           <a href="https://www.brown.edu/" target="_blank" rel="noreferrer">
@@ -36,27 +39,18 @@ function Home() {
           >
             Better World by Design
           </a>
-          . <br></br>
-          <br></br>I'm currently enrolled in "Virtual Spatial Morphologies," a
-          graduate-level class in RISD's{" "}
-          <a
-            href="https://interiorarchitecture.risd.edu/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Interior Architecture Department
-          </a>
           .<br></br>
           <br></br>I'm interested in how nature, exploration, and play can
-          contribute to an ethical, critical design practice.
+          contribute to an ethical, critical design practice. Outside of design,
+          I'm a reader and woodworker.
           <br />
           <br />
           <div className="disc-small">
             I'm currently A/B testing this website that I coded myself against a
-            templatized one. If you'd like to give feedback, you can find a
-            survey{" "}
+            templatized one. If you're open to providing feedback, you can find
+            a survey{" "}
             <a
-              href="https://interiorarchitecture.risd.edu/"
+              href="https://forms.gle/vMaXmKgCUYKZWQ3G6"
               target="_blank"
               rel="noreferrer"
             >

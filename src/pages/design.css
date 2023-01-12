@@ -62,7 +62,7 @@ body {
   padding: 0;
 }
 .disc-large {
-  font-size: x-large;
+  font-size: 3ch;
   width: 80vw;
   padding: 10px;
 }
@@ -75,7 +75,6 @@ body {
 }
 
 .disc-apple {
-  width: 40vw;
   padding: 10px;
   font-size: 3ch;
   color: black;
@@ -90,7 +89,7 @@ body {
 .disc-apple-main {
   width: 100%;
   padding: 10px;
-  font-size: 3.5ch;
+  font-size: 3ch;
   color: #6e6e73;
 }
 
@@ -101,6 +100,16 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.bricks-half {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
 }
 
 img {
@@ -133,7 +142,7 @@ img {
 
 .block-quote {
   color: #353633;
-  font-size: x-large;
+  font-size: 3ch;
   font-style: italic;
   width: 70%;
   margin-left: 5%;
@@ -178,27 +187,28 @@ img {
 }
 
 .left-text {
-  font-size: x-large;
+  font-size: 3ch;
   width: 55vw;
   padding-right: 1vw;
 }
 
 .left-text-big-text {
-  font-size: x-large;
+  font-size: 3ch;
   padding-left: 2vw;
   width: 55vw;
   padding-right: 1vw;
 }
 .left-text-small {
-  font-size: x-large;
-  width: 35vw;
+  font-size: 3ch;
+  width: 40vw;
+  min-width: 500px;
   padding-right: 3vh;
 }
 
 .left-half {
   font-family: Garamond;
   width: 50%;
-  font-size: x-large;
+  font-size: 3ch;
   margin-bottom: 1.8vw;
   padding: 3vw;
 }
@@ -206,7 +216,7 @@ img {
 .left-half-noDash {
   font-family: Garamond;
   width: 50vw;
-  font-size: x-large;
+  font-size: 3ch;
   margin-bottom: 1.8vw;
   padding: 2vw;
   padding-top: 0;
@@ -215,20 +225,26 @@ img {
 .left-most-noDash {
   font-family: Garamond;
   width: 100%;
-  font-size: x-large;
+  font-size: 3ch;
   margin-bottom: 1.8vw;
   padding: 5px;
 }
 .tapback-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   padding: 20px;
   width: 30vw;
-  font-size: x-large;
+  min-width: 500px;
+  font-size: 3ch;
 }
 .iphoneMockup {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30vw;
+  min-width: 400px;
   padding: 10px;
 }
 
@@ -242,6 +258,7 @@ img {
   padding-left: 10vh;
   padding-right: 10vh;
   padding-bottom: 5vh;
+  min-width: 200px;
 }
 .iphoneMockup-small {
   display: flex;
@@ -250,6 +267,7 @@ img {
   height: 40ch;
   width: auto;
   padding: 10px;
+  min-width: 200px;
 }
 
 .iphoneMockup-small-noPad {
@@ -259,6 +277,7 @@ img {
   height: 50ch;
   width: auto;
   padding: 10px;
+  min-width: 200px;
 }
 
 .iconMockup {
@@ -273,10 +292,11 @@ img {
   width: 20%;
   padding: 30px;
   padding-left: 0;
+  min-width: 200px;
 }
 .tapback-right {
   width: 40%;
-  font-size: x-large;
+  font-size: 3ch;
 }
 
 .apple-icon {
@@ -295,7 +315,7 @@ img {
 .left-small {
   font-family: Garamond;
   width: 39%;
-  font-size: x-large;
+  font-size: 3ch;
   margin-bottom: 1.8vw;
 }
 
@@ -334,7 +354,7 @@ img {
 }
 
 .contact {
-  font-size: xx-large;
+  font-size: x 3ch;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -358,7 +378,7 @@ a:active {
 .writing {
   display: flex;
   flex-wrap: wrap;
-  font-size: x-large;
+  font-size: 3ch;
   align-items: center;
   justify-content: center;
 }
@@ -369,6 +389,7 @@ a:active {
   align-items: center;
   width: 80vw;
   justify-content: center;
+  margin: 0;
 }
 .pdf {
   margin-left: 0;
@@ -443,6 +464,7 @@ a:active {
 
 .mediumImg {
   width: 50%;
+  border-radius: 20px;
 }
 
 .mediumImgPad {
@@ -488,7 +510,7 @@ a:link {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 30vw;
+  height: fit-content;
 }
 
 .flex-constrained-w {
@@ -528,7 +550,7 @@ a:link {
   color: #847af6;
   width: 100%;
   text-align: right;
-  font-size: 4.5vw;
+  font-size: 5ch;
   font-weight: 500;
   text-align: left;
 }
@@ -537,7 +559,7 @@ a:link {
   color: #0075fa;
   width: 100%;
   text-align: right;
-  font-size: 4.5vw;
+  font-size: 5ch;
   font-weight: 500;
   text-align: left;
 }
@@ -555,7 +577,7 @@ a:link {
   );
   color: transparent;
   -webkit-background-clip: text;
-  font-size: 6vw;
+  font-size: 6ch;
 }
 
 .flex-apple .title-bold {
@@ -572,7 +594,7 @@ a:link {
   );
   color: transparent;
   -webkit-background-clip: text;
-  font-size: 6vw;
+  font-size: 6ch;
 }
 
 .flex-apple .subtitle-sideways {
@@ -638,7 +660,7 @@ a:link {
   display: flex;
   flex-wrap: wrap;
   padding: 2ch;
-  width: 90vw;
+  width: 90%;
 }
 .blue {
   color: #3772ff;
@@ -650,7 +672,7 @@ a:link {
 
 .monospace {
   font-family: monospace;
-  font-size: 0.01em;
+  line-height: 30px;
 }
 
 .widestPoss {

@@ -148,63 +148,72 @@ function Iterative() {
       </div>
       <div className="seperator" />
       <div className="subhead">Part 2: Style Guide</div>
-      <div className="disc">
-        For the style guide, I tried to use simple, organic colors, looking to
-        replicate the cozy, "hygge" feeling that many bookstores, including
-        Powerhouse, play into. Their current website uses metallic and modern
-        colors, which seems discordant with their brick and mortar branding. For
-        interactions, I tried to keep it in line with the dominant trends, not
-        making any choices that wouldn't be seen elsewhere and the user wouldn't
-        be used to.
+      <div className="flex">
+        <div className="left-text-big-text">
+          For the style guide, I tried to use simple, organic colors, looking to
+          replicate the cozy, "hygge" feeling that many bookstores, including
+          Powerhouse, play into. Their current website uses metallic and modern
+          colors, which seems discordant with their brick and mortar branding.
+          For interactions, I tried to keep it in line with the dominant trends,
+          not making any choices that wouldn't be seen elsewhere and the user
+          wouldn't be used to.
+        </div>
+
+        <img
+          src="https://storage.googleapis.com/uxfolio/633b7c971d43db0003adbb93/634fff9b18e80100031f54db/4AWMXDbQVf0WIjyL.png"
+          className="smallimg"
+        />
       </div>
-      <img
-        src="https://storage.googleapis.com/uxfolio/633b7c971d43db0003adbb93/634fff9b18e80100031f54db/4AWMXDbQVf0WIjyL.png"
-        className="mediumImgPad"
-      />
+      <div className="seperator"></div>
       <div className="centerElements">
         <div className="subhead">Part 3: Hi-fi Annotated Mockup</div>
         <img
           src="https://storage.googleapis.com/uxfolio/633b7c971d43db0003adbb93/634fff9b18e80100031f54db/sOYxymcxGvl6uPIT.png"
           alt="annotated hifi"
-          className="padBottom"
+          className="mediumImg"
         />
       </div>
-      <div className="subhead">Part 4: Deploying my Design</div>
-      <div className="disc">
-        I, to the best of my HTML and CSS abilities, implemented my Figma
-        mockup. Thanks to my use of flexboxes, the design was already responsive
-        across screen sizes. I did, however, have to do some CSS tricks to make
-        a one column solution on mobile pages. I used the{" "}
-        <a
-          href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp"
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-        >
-          @media
-        </a>{" "}
-        rule to create a single column solution when the screen size was below
-        750px. At that size, I also unhid the shopping cart icon, removed the
-        detailed shopping cart. <br />
-        <br />
-        There were a few discrepancies (thanks to my limited web-dev abilities)
-        between the Hi-Fi prototype and the HTML page, such as fonts, minor
-        alignment issues, and the ability to implement a carousel. I also did
-        not implement the (ideal + prototyped) infinite scroll, but stuck to
-        four browsing rows.
-        <br />
-        <br /> Check out the website{" "}
-        <a
-          href="https://woefulworm.github.io/assignment2-website/"
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-        >
-          here
-        </a>
-        .
+      <br></br>
+      <div className="seperator"></div>
+      <div className="centerElements">
+        <div className="subhead">Part 4: Deploying my Design</div>
+        <div className="disc-large">
+          I, to the best of my HTML and CSS abilities, implemented my Figma
+          mockup. Thanks to my use of flexboxes, the design was already
+          responsive across screen sizes. I did, however, have to do some CSS
+          tricks to make a one column solution on mobile pages. I used the{" "}
+          <a
+            href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            @media
+          </a>{" "}
+          rule to create a single column solution when the screen size was below
+          750px. At that size, I also unhid the shopping cart icon, removed the
+          detailed shopping cart. <br />
+          <br />
+          There were a few discrepancies (thanks to my limited web-dev
+          abilities) between the Hi-Fi prototype and the HTML page, such as
+          fonts, minor alignment issues, and the ability to implement a
+          carousel. I also did not implement the (ideal + prototyped) infinite
+          scroll, but stuck to four browsing rows.
+          <br />
+          <br /> Check out the website{" "}
+          <a
+            href="https://woefulworm.github.io/assignment2-website/"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            here
+          </a>
+          .<br></br>
+          <br></br>
+        </div>
         <img
           src="https://storage.googleapis.com/uxfolio/633b7c971d43db0003adbb93/634fff9b18e80100031f54db/1e1Be5BJt5j78hn9.gif"
           alt="annotated hifi"
-          className="padBottom"
+          className="mediumImg"
         />
       </div>
     </body>
