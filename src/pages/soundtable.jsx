@@ -4,7 +4,21 @@ import "./design.css";
 function Soundtable() {
   return (
     <body className="flex">
-      <div className="title">Soundtable</div>
+      <div>
+        <div className="title-short">Soundtable</div>
+        <div className="subhead">Final project for ENGN930</div>
+      </div>
+      <div className="a-little-pad" />
+      <iframe
+        src="https://player.vimeo.com/video/724583639?h=126fcc5a06&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+        title="soundtable demo"
+        className="vimeo"
+      ></iframe>
+      <div className="seperator"></div>
+      <div className="subhead-wide">Inspiration</div>
       <div className="left-text">
         For an end-of-semester project, I built an Ableton controller. This
         project grew out of a desire to both simplify and introduce an aspect of
@@ -13,15 +27,7 @@ function Soundtable() {
         high barrier to entry into the field. As opposed to most software
         synthesizers, the Soundtable was designed to allow
         anyone&#8212;including those without experience&#8212;to experiment and,
-        most importantly, play.<br></br>
-        <br></br> The design is intentionally organic, placing it in direct
-        contrast with the digital style popular in the field. The meanings of
-        the controls are intentionally obscure on the first interaction. This is
-        to encourage exploration and discovery rather than the achievement of
-        specific sonic goals. For those looking to have granular, precise
-        control over their synthesis, there is already a variety of technology.
-        Instead, the Soundtable fulfills a different need: to have a fun, casual
-        introduction to sound synthesis.
+        most importantly, play.
         <br />
         <br />
         Behind the scenes,{" "}
@@ -33,20 +39,33 @@ function Soundtable() {
         <a href="https://vital.audio/" target="_blank" rel="noreferrer">
           Vital Basic
         </a>
-        .
+        .<br></br>
+        <br />
+        <br />
       </div>
-      <iframe
-        src="https://player.vimeo.com/video/724583639?h=126fcc5a06&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-        frameborder="0"
-        allow="autoplay; fullscreen; picture-in-picture"
-        allowfullscreen
-        title="soundtable demo"
-        className="vimeo"
-      ></iframe>
-      <div className="seperator"></div>
-      <div className="subhead-wide">Inspiration</div>
+      <img src="https://i.imgur.com/FgiVUC3.jpg" className="smallimg" />
       <div className="seperator"></div>
       <div className="subhead-wide">Ideation</div>
+      <div className="left-text">
+        The design is intentionally organic, placing it in direct contrast with
+        the digital style popular in the field. The meanings of the controls are
+        intentionally obscure on the first interaction. This is to encourage
+        exploration and discovery rather than the achievement of specific sonic
+        goals. For those looking to have granular, precise control over their
+        synthesis, there is already a variety of technology. Instead, the
+        Soundtable fulfills a different need: to have a fun, casual introduction
+        to sound synthesis.<br></br>
+        <br></br> In the process of finding this design, I considered many
+        different, divergent, possibilities, ranging from a traditional piano
+        layout to a haptic handheld option. I decided on this more furnished
+        design. As an object looking to bridge the gap between the organic and
+        the fabricated, the hard edges contrasted with the abstract interface
+        and organic materials gestured towards this goal. Further, my technical
+        abilities constrained my ideas and I felt like this was an achieveable
+        fabrication-wise. layout
+        <br></br>
+        <br></br>
+      </div>
       <div className="seperator"></div>
       <div className="subhead-wide">Implementation</div>
       <div className="left-text-small">
@@ -65,7 +84,6 @@ function Soundtable() {
         grid-like aesthetic I was intentionally subverting while keeping the
         simplicity needed.
       </div>
-      <div className="seperator"></div>
       <div className="left-text-big-text">
         With the circuitry working, I wrote a program that received serial data
         from the Arduinos and utilized the{" "}
@@ -87,10 +105,7 @@ function Soundtable() {
         .
       </div>
       <img className="mediumImg" src="https://i.imgur.com/srWmGfm.png" />
-      <div className="seperator"></div>
-      <img className="smallimg" src="https://i.imgur.com/VT8PnMR.jpg" />
-      <img className="smallimg" src="https://i.imgur.com/FZMI8bd.jpg" />
-      <img className="smallimg" src="https://i.imgur.com/VT8PnMR.jpg" />
+      <div className="nl"></div>
       <div className="left-text-big-text">
         Then, when it came to creating the casing for the technology, it was
         important for the project's goals to create a natural-looking piece of
@@ -102,6 +117,11 @@ function Soundtable() {
         another iteration, I would focus on creating a more organic shape to
         further signal its ideological departure from a traditional
         synthesizer/digital music ethos.
+      </div>{" "}
+      <div className="centerElements">
+        <img className="smallimg" src="https://i.imgur.com/SyWbFYw.jpg" />
+        <img className="smallimg" src="https://i.imgur.com/FZMI8bd.jpg" />
+        <img className="smallimg" src="https://i.imgur.com/VT8PnMR.jpg" />
       </div>
     </body>
   );

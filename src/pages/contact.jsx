@@ -42,9 +42,12 @@ function Contact() {
           </li>
         </ul>
       </div>
-      <div className="contactPhoto">
+      <div className="mePhoto-defunct" hidden="true">
         {" "}
-        <img src="https://pbs.twimg.com/media/EY7tGKrUMAAToB9?format=jpg&name=large"></img>
+        <img
+          src="https://pbs.twimg.com/media/EY7tGKrUMAAToB9?format=jpg&name=large"
+          hidden="true"
+        ></img>
       </div>
     </body>
   );

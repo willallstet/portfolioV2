@@ -14,6 +14,22 @@ body {
   padding: 5px;
   width: 100%;
 }
+
+.title-short {
+  font-size: 9ch;
+  font-weight: 600;
+  padding: 5px;
+  width: 50%;
+}
+
+.title-center {
+  text-align: center;
+  font-size: 9ch;
+  font-weight: 600;
+  padding: 5px;
+  width: 100%;
+}
+
 .title-alittleSmaller {
   font-size: 6ch;
   font-weight: 600;
@@ -36,11 +52,15 @@ body {
   text-align: center;
 }
 
-.disc {
+.disc-small {
   width: 100%;
   padding: 10px;
 }
-
+.disc-small {
+  font-size: small;
+  margin: 0;
+  padding: 0;
+}
 .disc-large {
   font-size: x-large;
   width: 80vw;
@@ -112,8 +132,10 @@ img {
 }
 
 .block-quote {
-  color: grey;
+  color: #353633;
+  font-size: x-large;
   font-style: italic;
+  width: 70%;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -156,6 +178,7 @@ img {
 }
 
 .left-text {
+  font-size: x-large;
   width: 55vw;
   padding-right: 1vw;
 }
@@ -169,14 +192,13 @@ img {
 .left-text-small {
   font-size: x-large;
   width: 35vw;
-  padding-right: 3vw;
+  padding-right: 3vh;
 }
 
 .left-half {
   font-family: Garamond;
   width: 50%;
   font-size: x-large;
-  border-right: dashed;
   margin-bottom: 1.8vw;
   padding: 3vw;
 }
@@ -186,7 +208,7 @@ img {
   width: 50vw;
   font-size: x-large;
   margin-bottom: 1.8vw;
-  padding: 5px;
+  padding: 2vw;
   padding-top: 0;
 }
 
@@ -279,13 +301,16 @@ img {
 
 .mePhoto {
   display: flex;
-  width: 40%;
+  max-width: 30vw;
+  min-width: 300px;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
   font-size: small;
-  height: 100%;
+  padding: 20px;
+  border: dashed;
+  margin-bottom: 10px;
 }
 .mePhotoSmall {
   width: 50vw;
@@ -339,9 +364,10 @@ a:active {
 }
 
 .resume {
-  height: 100vh;
+  height: fit-content;
   text-align: center;
   align-items: center;
+  width: 80vw;
   justify-content: center;
 }
 .pdf {
@@ -351,10 +377,11 @@ a:active {
   border: none;
 }
 .footer {
-  bottom: 0;
+  min-height: 2vh;
   width: 100%;
-  height: 2rem;
-  padding: 0.5rem;
+  margin: 10px;
+  margin-top: 0;
+  padding-top: 10px;
   border-top: dashed;
   padding-bottom: 0;
   background-color: #e0e1dd;
@@ -362,12 +389,13 @@ a:active {
 
 .not-footer {
   background-color: #e0e1dd;
-  min-height: fit-content;
+  min-height: 93vh;
 }
 
 .vimeo {
   width: 40vw;
   height: 60vh;
+  border-radius: 20px;
 }
 
 .vimeoTall {
@@ -388,10 +416,17 @@ a:active {
   padding-top: 0;
   margin: 0;
   border: none;
+  border-radius: 20px;
 }
 .smallimg {
+  min-width: 300px;
   width: 20vw;
   padding: 1vw;
+  border-radius: 20px;
+}
+
+.nl {
+  width: 98vw;
 }
 
 .all {
@@ -403,7 +438,7 @@ a:active {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  min-height: 84.6vh;
 }
 
 .mediumImg {
@@ -413,6 +448,12 @@ a:active {
 .mediumImgPad {
   padding: 20px;
   width: 50%;
+}
+
+.mediumImgPad-vw {
+  padding: 20px;
+  height: auto;
+  max-height: 30vw;
 }
 
 a:link {
@@ -434,6 +475,7 @@ a:link {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  min-height: 100%;
 }
 .flex {
   display: flex;
@@ -441,7 +483,29 @@ a:link {
   justify-content: center;
   align-items: center;
 }
+.flex-constrained {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 30vw;
+}
 
+.flex-constrained-w {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  padding: 1vw;
+  border-left: dashed;
+  border-right: dashed;
+}
+.shortImg {
+  height: 26.5vw;
+  width: auto;
+  border-radius: 20px;
+}
 .flex-noJust {
   display: flex;
   flex-wrap: wrap;
@@ -549,13 +613,16 @@ a:link {
 }
 
 .left-pad {
-  height: 70vh;
-  padding-left: 2vw;
+  padding: 2vw;
 }
 
 .figma {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 90%;
   height: 500px;
+  border-radius: 20px;
 }
 
 .row-tapback {
@@ -588,4 +655,18 @@ a:link {
 
 .widestPoss {
   width: 100%;
+}
+
+.pad {
+  padding: 1vw;
+  border-radius: 20px;
+}
+.a-little-pad {
+  width: 3vw;
+}
+.vert-pad {
+  height: 3vh;
+}
+li {
+  margin-bottom: 0px;
 }

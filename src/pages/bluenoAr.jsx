@@ -35,11 +35,11 @@ function BluenoAr() {
           </a>{" "}
           my team and I chose for the 2022 festival. <br />
           <br />
-          By attaching an ambigous QR code and call to action on the posters
+          By attaching an ambiguous QR code and call to action on the posters
           scattered around campus, viewers are drawn into the world of the
           festival. My goal was to create a promotional experience that felt
-          like discovery and gestured towards IFF's takeover of campus during
-          festival week.
+          like discovery and mimicked IFF's takeover of campus during festival
+          week.
         </div>
       </div>
       <div className="mePhoto">

@@ -50,6 +50,7 @@ function Projects() {
           </div>
         </a>
       </div>
+      <div className="seperator"></div>
       <div className="subhead">UI/UX</div>
       <div className="bricks">
         <a href="/portfolioV2/tapback">

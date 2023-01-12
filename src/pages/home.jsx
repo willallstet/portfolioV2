@@ -20,7 +20,7 @@ function Home() {
           <a href="https://www.risd.edu/" target="_blank" rel="noreferrer">
             RISD
           </a>
-          ). At school, I'm the the New Media Department coordinator for the{" "}
+          ). At school, I'm the New Media Department coordinator for the{" "}
           <a
             href="https://www.ivyfilmfestival.org/"
             target="_blank"
@@ -38,28 +38,41 @@ function Home() {
           </a>
           . <br></br>
           <br></br>I'm currently enrolled in "Virtual Spatial Morphologies," a
-          graduate level class in RISD's{" "}
+          graduate-level class in RISD's{" "}
           <a
             href="https://interiorarchitecture.risd.edu/"
             target="_blank"
             rel="noreferrer"
           >
-            Interior Architecure Department
+            Interior Architecture Department
           </a>
           .<br></br>
           <br></br>I'm interested in how nature, exploration, and play can
           contribute to an ethical, critical design practice.
+          <br />
+          <br />
+          <div className="disc-small">
+            I'm currently A/B testing this website that I coded myself against a
+            templatized one. If you'd like to give feedback, you can find a
+            survey{" "}
+            <a
+              href="https://interiorarchitecture.risd.edu/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              here
+            </a>
+            .
+          </div>
         </div>
         <div className="mePhoto">
           <img
             src="https://i.imgur.com/sAuEg27.jpg"
             alt="a photo of me (Will Allstetter)"
-            className="left-pad"
           />
         </div>
       </div>
     </div>
   );
 }
-
 export default Home;
