@@ -14,8 +14,13 @@ import "./pages/design.css";
 import Techlands from "./pages/techlands";
 import Blueno from "./pages/bluenoAr";
 import Weensy from "./pages/weensyOs";
+import MNIST from "./pages/mnist";
 import Backpack from "./pages/backpack";
 import Tapback from "./pages/tapbackRedesign";
+import GeoJournal from "./pages/geoJournal";
+import Gitlab from "./pages/gitlab";
+import DogCat from "./pages/dogCat";
+
 
 export default function App() {
   return (
@@ -27,9 +32,12 @@ export default function App() {
             <Route path="portfolioV2" element={<Home />} />
             <Route path="contact" element={<Contact />} />
             <Route path="bluenoAr" element={<Blueno />} />
+            <Route path="geoJournal" element={<GeoJournal />} />
+            <Route path="gitlab" element={<Gitlab />} />
+            <Route path="mnist" element={<MNIST />} />
             <Route path="weensyOS" element={<Weensy />} />
-            <Route path="backpack" element={<Backpack />} />
             <Route path="soundtable" element={<Soundtable />} />
+            <Route path="dogCat" element={<DogCat />} />
             <Route path="redesign" element={<Redesign />} />
             <Route path="writing" element={<Writing />} />
             <Route path="resume" element={<Resume />} />

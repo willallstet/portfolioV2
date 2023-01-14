@@ -42,13 +42,20 @@ function Contact() {
           </li>
         </ul>
       </div>
-      <div className="mePhoto-defunct" hidden="true">
-        {" "}
-        <img
-          src="https://pbs.twimg.com/media/EY7tGKrUMAAToB9?format=jpg&name=large"
-          hidden="true"
-        ></img>
-      </div>
+      <pre className="monospace-art">
+..--""|<br/>
+|     |<br/>
+| .---'<br/>
+<span className="hide-me">*</span>(\-.---| |-----------.<br/>
+<span className="hide-me">*</span>/ \) \  | |            \<br/>
+<span className="hide-me">-</span>|:.  |  | |            |<br/>
+<span className="hide-me">-</span>|:.  |  |o|   M A I L  |<br/>
+<span className="hide-me">-</span>|:.  | `"`             |<br/>
+<span className="hide-me">-</span>|:.  |_  __   __ _  __ /<br/>
+<span className="hide-me">-</span>`""""`""""|=`|"""""""`<br/>
+<span className="hide-me">***</span>|=_|<br/>
+<a href="https://en.wikipedia.org/wiki/Joan_Stark" target="_blank" rel="noreferrer">jgs</a>|= |<br/><br/><br/><br/><br/><br/><br/>
+      </pre>
     </body>
   );
 }

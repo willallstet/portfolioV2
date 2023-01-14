@@ -37,15 +37,15 @@ function BluenoAr() {
           <br />
           By attaching an ambiguous QR code and call to action on the posters
           scattered around campus, viewers are drawn into the world of the
-          festival. My goal was to create a promotional experience that felt
-          like discovery and mimicked IFF's takeover of campus during festival
+          festival. My goal was to create a promotional experience that the viewers
+          "discovered" and mimicked IFF's takeover of campus during festival
           week.
         </div>
       </div>
       <div className="mePhoto">
         <img
           className="mediumImgPad"
-          src="https://media4.giphy.com/media/YUu0xmmRmePOyu8uIh/giphy.gif?cid=790b76114918966cc373c0d38ecd43826ed176ce4cf224d3&rid=giphy.gif&ct=g"
+          src="https://media2.giphy.com/media/SnpJaTN9Ig6euKCNzh/giphy.gif?cid=790b7611610fad29c5c999d5e51c9314384fa740e497e561&rid=giphy.gif&ct=g"
         ></img>
       </div>
     </body>

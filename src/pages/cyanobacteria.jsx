@@ -37,7 +37,7 @@ function Cyanobacteria() {
             that intakes CSV data and video to sonify Cyanobacteria cells&apos;
             growth. It does so by mapping different heuristics (change in cell
             size, cell growth rate, video movement, etc.) to different
-            properties such as arpeggiator rate or the triggering of a kick
+            properties, such as arpeggiator rate or the triggering of a kick
             drum.
           </div>
         </div>{" "}
@@ -49,16 +49,16 @@ function Cyanobacteria() {
           ></iframe>
         </div>
       </div>
-      <div className="flex">
+      <div className="flex2">
         <img
-          className="vimeoPicContainer"
+          className="thirtyvwimg"
           src="https://www.colorado.edu/project/environmental-futures/sites/default/files/styles/large_square_thumbnail/public/gallery/screen_shot_2022-04-13_at_4.40.56_pm.png?itok=UjG62-3h"
         />
         <div className="left-half-noDash">
           <div className="disc">
             The output, in MIDI format, is currently being used as a soundtrack
-            in the production of a documentary about the bacteria. This project
-            as a whole attempted to understand the poetic and scientific
+            in the production of a documentary about the bacteria. This project,
+            as a whole, attempted to understand the poetic and scientific
             similarities between man-made climate change and the cyanobacteria
             life cycle. <br />
             <br />

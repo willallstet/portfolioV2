@@ -6,13 +6,13 @@ function Writing() {
       <div className="bricks">
         <div className="left-half">
           <div>
-            I&apos;ve publshed&nbsp;
+            I&apos;ve published&nbsp;
             <a
               href="https://www.theindy.org/author=Will%20Allstetter"
               target="_blank"
               rel="noreferrer"
             >
-              these articles
+              two articles
             </a>{" "}
             in <i>The College Hill Independent</i>, worked as a copywriter for{" "}
             <a
@@ -22,7 +22,7 @@ function Writing() {
             >
               PIPs
             </a>
-            , and won{" "}
+            , and won the 2020{" "}
             <a
               href="https://brownmotionpictures.org/"
               target="_blank"
@@ -41,7 +41,7 @@ function Writing() {
               william_allstetter@brown.edu
             </a>
             ) if you&apos;d like other examples of my academic, professional, or
-            fictional pieces.
+            fiction pieces.
           </div>
         </div>
         <div className="mePhoto">

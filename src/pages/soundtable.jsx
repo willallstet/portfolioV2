@@ -24,10 +24,10 @@ function Soundtable() {
         project grew out of a desire to both simplify and introduce an aspect of
         play to sound synthesis. Modern digital VST synthesizers rely on
         extensive knowledge of sine wave and wavetable properties, creating a
-        high barrier to entry into the field. As opposed to most software
+        high barrier to entry. As opposed to most software
         synthesizers, the Soundtable was designed to allow
-        anyone&#8212;including those without experience&#8212;to experiment and,
-        most importantly, play.
+        anyone&#8212;including those without experience&#8212;to interface and,
+        more importantly, play with sound synthesis.
         <br />
         <br />
         Behind the scenes,{" "}
@@ -46,33 +46,33 @@ function Soundtable() {
       <img src="https://i.imgur.com/FgiVUC3.jpg" className="smallimg" />
       <div className="seperator"></div>
       <div className="subhead-wide">Ideation</div>
+      <img src="https://i.imgur.com/onyueUY.jpg" className="smallerimg"/>
       <div className="left-text">
         The design is intentionally organic, placing it in direct contrast with
         the digital style popular in the field. The meanings of the controls are
         intentionally obscure on the first interaction. This is to encourage
-        exploration and discovery rather than the achievement of specific sonic
+        exploration and discovery, rather than the achievement of specific sonic
         goals. For those looking to have granular, precise control over their
-        synthesis, there is already a variety of technology. Instead, the
-        Soundtable fulfills a different need: to have a fun, casual introduction
+        synthesis, there is already a variety of tools. Instead, the
+        Soundtable fulfills a different need: to have a fun and casual introduction
         to sound synthesis.<br></br>
-        <br></br> In the process of finding this design, I considered many
-        different, divergent, possibilities, ranging from a traditional piano
-        layout to a haptic handheld option. I decided on this more furnished
-        design. As an object looking to bridge the gap between the organic and
-        the fabricated, the hard edges contrasted with the abstract interface
-        and organic materials gestured towards this goal. Further, my technical
-        abilities constrained my ideas and I felt like this was an achievable
-        fabrication-wise.
+        <br></br> In the design process, I considered many divergent possibilities, 
+        ranging from a traditional piano layout to a haptic handheld option. 
+        I decided on this more furnished design. As an object looking to bridge the gap between the 
+        organic and the fabricated, the Soundtable's hard edges contrasted with the abstract 
+        interface and organic materials, gesturing towards this goal. While my ideas were sometimes 
+        constrained by my technical abilities, in this stage, I found an achievable design through 
+        initial experimentation. 
         <br></br>
         <br></br>
       </div>
       <div className="seperator"></div>
       <div className="subhead-wide">Implementation</div>
       <div className="left-text-small">
-        Wanting to create a <b>tactile</b> and <b>touchable</b> interface
-        without a digital aesthetic, I decided to utilize capacitive touch
+        Eager to create a tactile and touchable design
+        without a digital aesthetic, I created an interface utilizing capacitive touch
         sensors and copper tape. My initial design consisted of overlapping
-        sections of tape, however, the overlapping signals grounded each other
+        sections of tape. However, the overlapping signals grounded each other
         and brought the outputs to zero.
       </div>
       <img className="smallimg" src="https://i.imgur.com/pGaSVib.jpg" />
@@ -80,8 +80,8 @@ function Soundtable() {
       <img className="smallimg" src="https://i.imgur.com/W2rC6hg.jpg" />
       <div className="left-text-big-text">
         As a result, I created an alternative design that, in the end, better
-        suited the needs of the project. This iteration gestured at the
-        grid-like aesthetic I was intentionally subverting while keeping the
+        suited the needs of the project. This iteration drew on at the
+        grid-like aesthetic I was intentionally subverting, while keeping the
         simplicity needed.
       </div>
       <div className="left-text-big-text">
@@ -94,7 +94,7 @@ function Soundtable() {
         >
           pyLive
         </a>{" "}
-        library to control Ableton Live. You can find the code repository{" "}
+        library to control Ableton Live. You can find the GitHub repository{" "}
         <a
           href="https://github.com/willallstet/soundtable"
           target="_blank"
@@ -107,16 +107,16 @@ function Soundtable() {
       <img className="mediumImg" src="https://i.imgur.com/srWmGfm.png" />
       <div className="nl"></div>
       <div className="left-text-big-text">
-        Then, when it came to creating the casing for the technology, it was
+        When creating the casing, it was
         important for the project's goals to create a natural-looking piece of
         furniture with organic materials.<br></br>
         <br />
         In the end, the object accomplished its design goals. As a mixture of a
-        UX and art project, the somewhat mystified goals/controls were important
-        to its thesis, making it hard to judge its success. If I were to make
+        UX and art project, the Soundtable's somewhat mystified uses/controls were important
+        to its thesis. If I were to make
         another iteration, I would focus on creating a more organic shape to
         further signal its ideological departure from a traditional
-        synthesizer/digital music ethos.
+        synthesizer ethos.
       </div>{" "}
       <div className="centerElements">
         <img className="smallimg" src="https://i.imgur.com/SyWbFYw.jpg" />

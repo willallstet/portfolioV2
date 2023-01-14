@@ -9,13 +9,15 @@ header {
   padding-bottom: 5px;
   width: 95vw;
   min-height: 5ch;
+  max-width:95vw;
 }
 
 .myName {
   text-align: end;
   font-size: xx-large;
   text-decoration: none;
-  width: 25%;
+  width: 25vw;
+  min-width:200px;
 }
 
 .myName:hover {
@@ -23,9 +25,25 @@ header {
 }
 
 .navBar {
-  width: 80%;
+  width: 80vw;
   text-align: left;
   font-size: x-large;
+}
+
+@media screen and (max-width: 600px){
+  .navBar {
+  width: 0;
+  }
+  header{
+    flex-wrap:wrap;
+    flex-direction:column-reverse;
+  }
+  .myName{
+    text-align: left;
+    border-bottom:dashed;
+    padding-bottom:1.5vh;
+    margin-bottom:1.5vh;
+  }
 }
 
 .navLink {
@@ -38,8 +56,14 @@ header {
   text-decoration: underline;
   cursor: pointer;
   font-style: italic;
+  color: #353633;
 }
 a:visited {
+  text-decoration: none;
+  color: #353633;
+}
+
+a:active {
   text-decoration: none;
   color: #353633;
 }

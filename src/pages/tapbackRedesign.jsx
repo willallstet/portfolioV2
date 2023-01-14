@@ -27,8 +27,8 @@ function Tapback() {
         ></img>
         <div className="left-text-small">
           <div className="subhead-apple">Inspiration strikes</div>
-          <div className="disc-apple">
-            When my friend agreed to pick me up from the airport at a new time,
+          <div className="disc-apple-small">
+            When my friend agreed to pick me up from the airport,
             I realized iMessage's "love" reaction didn't quite carry the meaning
             I wanted to convey. Looking to combine love, gratitude, and
             protection, I said I wished I could "angel" react instead. As such,
@@ -38,7 +38,7 @@ function Tapback() {
         </div>
       </div>
       <img
-        className="iphoneMockup-even"
+        className="iphoneMockup-even-hide"
         src="https://i.imgur.com/XGgzsaO.png"
         alt="the original inspiration text"
       ></img>
@@ -51,9 +51,9 @@ function Tapback() {
         <div className="left-text-small">
           <div className="subhead-apple-blue">Implementation</div>
           <div className="disc-apple">
-            In order to design a minimum viable product I adapted existing Apple
+            In order to design a minimum viable product, I adapted existing Apple
             screens, designed 30 sample icons, and created a workflow where a
-            user can swap out their six reaction core icons.
+            user can swap out their six core reaction icons.
           </div>
         </div>
         <img
@@ -67,7 +67,7 @@ function Tapback() {
           <div className="disc-apple-wide">
             Working off the existing macOS and iOS mental map, a user can hold
             down an icon—making it shake—to open the menu that shows replacement
-            icons. I added a search bar because I envision a future, shippable
+            icons. I added a search bar, because I envision a future, shippable
             iteration that includes more icons than the sample set I designed.
           </div>
         </div>
@@ -85,7 +85,7 @@ function Tapback() {
       <div className="row-tapback-head">
         <div>
           <div className="disc-apple">
-            In the end, I designed 30 tapbacks in addition to the original six.
+            In the end, I designed 30 tapbacks in addition, to the original six.
             Tapbacks are distinct from emojis, conveying reactions rather than
             emotions. As such, I stayed away from people and expressions.
             However, I attempted to make them abstract and wide-ranging,
